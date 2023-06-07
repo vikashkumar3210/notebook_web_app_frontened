@@ -4,10 +4,7 @@
     font-family: 'Bitter', serif;
     color: black;
     letter-spacing: 2px;
-}
-
-body {
-    margin: 0;
+       margin: 0;
     padding: 0;
 }
 
@@ -36,7 +33,6 @@ button {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 45px 1fr;
     grid-template-areas: "header1 header1" "main1 main1";
-    padding: 0 5px;
     row-gap: 10px;
     justify-items: center;
     align-items: center;
@@ -65,8 +61,8 @@ label {
     height: 45px;
     background-color: blueviolet;
     grid-area: header1;
-    padding: 8px;
-    position: sticky;
+    justify-self:normal;
+    position:fixed;
     top: 0;
     z-index: 2;
     box-shadow: 0 2px 3px grey;
